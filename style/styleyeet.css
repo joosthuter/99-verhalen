@@ -1,0 +1,168 @@
+/*Basis*/
+
+* {
+    font-family: arial, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    color: black;
+}
+
+
+/*Header*/
+
+.titel {
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.titel h1 {
+    margin-bottom: 0px;
+}
+
+header {
+    padding-top: 15px;
+    background-color: #07193c;
+}
+
+header h1 {
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 0px;
+}
+
+.nav-two {
+    justify-content: flex-end;
+}
+
+.nav-two li {
+    background-color: #1a2b4b;
+}
+
+nav li {
+    margin-right: 5px;
+    padding: 10px 15px 0px 10px;
+    background-color: #32415e;
+}
+
+nav a {
+    color: white;
+}
+
+li img {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+nav input {
+    font-size: 1.2em;
+    margin-bottom: 0;
+    padding: 10px 15px 10px 10px;
+    color: white;
+    background-color: #1a2b4b;
+    border: none;
+}
+
+#zoek {
+    padding: 0;
+}
+
+
+/*Uitgelicht*/
+
+#populair,
+#voor-jou {
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-size: cover;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    height: 280px;
+    color: white;
+}
+
+#voor-jou {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.93), rgba(255, 0, 0, 0)), url(paranoia.png);
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-size: cover;
+}
+
+#voor-jou img {
+    width: 50px;
+    height: 50px;
+}
+
+#populair img {
+    width: 50px;
+    height: 50px;
+}
+
+#populair {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.93), rgba(255, 0, 0, 0)), url(klumper.png);
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-size: cover;
+}
+
+article div {
+    position: relative;
+    top: 110px;
+    right: 0;
+    width: 80vw;
+    margin: auto;
+    margin-right: auto;
+}
+
+
+/*Filter*/
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+fieldset {
+    border: none;
+    padding-right: 15em;
+    margin: 0;
+}
+
+
+/*alle verhalen*/
+
+.alle-verhalen {
+    width: 80vw;
+    margin: auto;
+    margin-right: auto;
+}
